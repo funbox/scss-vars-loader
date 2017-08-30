@@ -1,0 +1,6 @@
+{
+  "name": "scss-vars-loader",
+  "version": "1.0.0",
+  "description": "SCSS variables for BEM-blocks",
+  "main": "index.js"
+}

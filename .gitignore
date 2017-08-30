@@ -1,0 +1,44 @@
+# -- Node.js --
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directory
+/node_modules
+
+# Optional npm cache directory
+.npm
+
+
+# -- IDEA --
+
+/.idea
+
+## File-based project format:
+*.iws
+
+
+# -- Vim --
+
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+
+# session
+Session.vim
+
+# temporary
+.netrwhist
+*~
+
+
+# -- Eclipse --
+
+*.swp
+
+
+# -- OS X --
+
+.DS_Store
