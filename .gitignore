@@ -12,12 +12,18 @@ npm-debug.log*
 .npm
 
 
-# -- IDEA --
+# -- VSCode --
+/.vscode
+jsconfig.json
 
+
+# -- IDEA --
 /.idea
 
 ## File-based project format:
+*.ipr
 *.iws
+*.iml
 
 
 # -- Vim --
@@ -32,13 +38,32 @@ Session.vim
 # temporary
 .netrwhist
 *~
+/tmp
 
 
 # -- Eclipse --
-
 *.swp
 
 
 # -- OS X --
-
 .DS_Store
+
+
+# -- Public --
+/public
+/public-sandbox
+
+
+# -- Tests --
+/test-reports
+/test-logs
+/gemini-*
+/screenshots
+
+
+# -- Sass --
+.sass-cache
+
+
+# -- ESLint --
+.eslintcache
