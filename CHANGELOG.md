@@ -1,6 +1,11 @@
 # Changelog
 
-## 2.0.0 (06.07.2017)
+## 2.1.0 (08.05.2019)
+
+Fixed the package name in README.
+
+
+## 2.0.0 (06.07.2018)
 
 The package was moved into the @funboxteam scope.
 
