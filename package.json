@@ -1,7 +1,7 @@
 {
   "name": "@funboxteam/scss-vars-loader",
-  "version": "2.1.0",
-  "description": "SCSS variables for BEM-blocks",
+  "version": "2.2.0",
+  "description": "SCSS variables for BEM blocks",
   "license": "MIT",
   "author": "Igor Adamenko <mail@igoradamenko.com> (https://igoradamenko.com)",
   "repository": {

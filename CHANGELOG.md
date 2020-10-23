@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.2.0 (23.10.2020)
+
+Improved performance. Now the loader works at least two times faster!
+
+Also the license defined & README improved.
+
+
 ## 2.1.0 (08.05.2019)
 
 Fixed the package name in README.
