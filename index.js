@@ -1,22 +1,11 @@
 const path = require('path');
 
 module.exports = function(source) {
-  const resourceDir = path.dirname(this.resourcePath);
-  const blockName = findBlockName(resourceDir);
+  const pathParts = path.dirname(this.resourcePath).split(path.sep);
 
-  if (blockName) {
-    return `$b: ${blockName};\n\n${source}`;
+  let i = pathParts.length - 1;
+  while (true) {
+    if (pathParts[i][0] !== '_') return `$b: ${pathParts[i]};\n\n${source}`;
+    i--;
   }
-
-  return source;
 };
-
-function findBlockName(dir) {
-  const name = path.basename(dir);
-
-  if (!name.match(/^_/)) {
-    return name;
-  }
-
-  return findBlockName(path.join(dir, '..'));
-}
