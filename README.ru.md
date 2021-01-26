@@ -20,7 +20,7 @@
 npm install --save-dev @funboxteam/scss-vars-loader
 ```
 
-Подключить в конфиге Вебпака так, чтобы он вызывался перед sass-loader:
+Подключить в конфиге Вебпака так, чтобы он вызывался после sass-loader:
 
 ```js
 module.exports = {

@@ -24,7 +24,7 @@ Install the loader in your project:
 npm install --save-dev @funboxteam/scss-vars-loader
 ```
 
-Add it into the project's Webpack config so that it is called before sass-loader:
+Add it into the project's Webpack config so that it is called after sass-loader:
 
 ```js
 module.exports = {
