@@ -13,6 +13,6 @@
     "index.js"
   ],
   "scripts": {
-    "prepublishOnly": "lawyer"
+    "prepublishOnly": "if [ -z \"$CI\" ]; then lawyer; fi"
   }
 }
